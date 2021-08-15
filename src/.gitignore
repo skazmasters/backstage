@@ -19,8 +19,6 @@
 
 /public/wp-content/upgrade/*
 !/public/wp-content/upgrade/.gitkeep
-/public/wp-content/uploads/*
-!/public/wp-content/uploads/.gitkeep
 
 # WordPress
 /public/wp/
