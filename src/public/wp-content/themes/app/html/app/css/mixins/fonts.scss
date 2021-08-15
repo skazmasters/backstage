@@ -1,0 +1,108 @@
+@mixin font($family, $name, $weight, $style: 'normal') {
+  $font_file_path: $fonts_dir + $family + '/' + $name;
+
+  @font-face {
+    font-family: $family;
+    font-weight: $weight;
+    font-style: $style;
+    src: url($font_file_path + '.woff') format('woff'),
+    url($font_file_path + '.woff2') format('woff2');
+    font-display: swap;
+  }
+}
+
+@mixin font-mixin($font_name) {
+  font-family: #{$font_name};
+}
+
+@mixin light() {
+  font-weight: 300;
+}
+
+@mixin regular() {
+  font-weight: 400;
+}
+
+@mixin medium() {
+  font-weight: 500;
+}
+
+@mixin semibold() {
+  font-weight: 600;
+}
+
+@mixin bold() {
+  font-weight: 700;
+}
+
+@mixin extrabold() {
+  font-weight: 800;
+}
+
+@mixin title-h1() {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 91px;
+
+  @include mobile {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+@mixin title-h2() {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.33333;
+
+  @include smallTablet {
+    font-size: 44px;
+  }
+
+  @include mobile {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
+
+@mixin title-h3() {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+
+  @include mobile {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@mixin title-h4($weight: 600) {
+  font-family: "Playfair Display", serif;
+  font-weight: $weight;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@mixin title-h5() {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@mixin font-base($weight: 400) {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: $weight;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@mixin font-small($weight: 400) {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: $weight;
+  font-size: 14px;
+  line-height: 19px;
+}

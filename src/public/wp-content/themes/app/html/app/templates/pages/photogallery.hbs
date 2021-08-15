@@ -1,0 +1,19 @@
+{{!Photogallery / Photo Report}}
+
+{{> layout/head
+        page-title="Backstage / Photo Report"
+        page-description="Backstage website example description"
+        page-url="https://ozitag.com/"
+        page-image="https://ozitag.com/_next/static/images/home-3dc3fd7581af6cd929f11c35830d3334.jpg"
+        page-image-16-9="https://ozitag.com/content/images/home/og_16x9.jpg"
+        page-image-alt="Alternative text"
+        page-published-date="2019-02-05T12:01:51+00:00"
+        page-modified-date="2020-03-30T09:00:00+03:00"
+}}
+
+{{> layout/header }}
+{{> blocks/photogallery/01_intro }}
+{{> blocks/photogallery/02_content }}
+<span class="js-scroll-to-top" aria-label="Scroll on top." tabindex="0"></span>
+{{> blocks/common/related title="Related Posts" card-related=cards.related.photo}}
+{{> layout/footer }}

@@ -1,0 +1,25 @@
+{{> helpers/script src="vendors" }}
+{{#if dynamicEntry}}
+  {{> helpers/script src="layout" }}
+  {{> helpers/script src="scroll-observer" }}
+  {{> helpers/script src="resize-observer" }}
+  {{> helpers/script src="scroll-control" }}
+  {{> helpers/script src="preloader" }}
+  {{> helpers/script src="popups" }}
+  {{> helpers/script src="header" }}
+  {{> helpers/script src="mobile-menu" }}
+  {{> helpers/script src="collapse" }}
+  {{> helpers/script src="sliders" }}
+  {{> helpers/script src="tabs" }}
+  {{> helpers/script src="dropdown" }}
+  {{> helpers/script src="lity" }}
+  {{> helpers/script src="share" }}
+  {{> helpers/script src="photogallery" }}
+  {{> helpers/script src="validation" }}
+  {{> helpers/script src="form" }}
+  {{> helpers/script src="scroll-to" }}
+  {{> helpers/script src="scroll-to-link" }}
+  {{> helpers/script src="app" }}
+{{else}}
+  {{> helpers/script src="main" }}
+{{/if}}

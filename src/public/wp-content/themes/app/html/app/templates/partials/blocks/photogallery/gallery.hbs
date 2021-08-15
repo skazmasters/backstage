@@ -1,0 +1,18 @@
+<div class="photogallery js-photogallery"
+     data-images-path="../assets/images/common/logo.svg"
+     data-sprite-url="../assets/images/spriteInline.svg"
+     data-pinterest-icon="../assets/images/sharing/pinterest.svg">
+  {{#each photogallery}}
+    <div class="photogallery__item">
+      <img class="photogallery__image lazy js-photogallery-image"
+           data-sizes="auto"
+           srcset="../assets/images/photogallery/{{this.image}}.jpg, ../assets/images/photogallery/{{this.image}}@2x.jpg 2x"
+           data-original="../assets/images/photogallery/{{this.image}}.jpg"
+           data-thumbs="../assets/images/photogallery/{{this.image}}.jpg"
+           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+           alt=""
+           loading="lazy"
+           tabindex="0">
+    </div>
+  {{/each}}
+</div>
