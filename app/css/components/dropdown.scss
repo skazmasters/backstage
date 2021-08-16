@@ -1,0 +1,124 @@
+.dropdown {
+  position: relative;
+  text-transform: capitalize;
+
+  &.opened {
+    .dropdown {
+      &__box {
+        display: block;
+        transition: height 450ms ease;
+      }
+
+      &__arrow {
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+  }
+
+  &__header {
+    position: relative;
+    padding: 0 45px 0 15px;
+    color: $color-secondary;
+    @include font-base();
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: $color-white;
+    overflow: hidden;
+    cursor: pointer;
+
+    @include mobile {
+      padding: 5px 0;
+      font-weight: bold;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%) rotate(0deg);
+    width: 10px;
+    height: 5px;
+    @include sprite('dropdown');
+
+    @include mobile {
+      right: 0;
+    }
+  }
+
+  &__box {
+    top: calc(100% + 15px);
+    left: 0;
+    z-index: 10;
+    display: none;
+    padding: 0;
+    min-width: 100%;
+    max-width: 250px;
+    background: #FFFFFF;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
+    &.animate {
+      display: block;
+      transition: height 450ms ease;
+    }
+
+    @include no-mobile {
+      position: absolute;
+    }
+
+    @include mobile {
+      box-shadow: none;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    height: 100%;
+    background: $color-white;
+
+    @include mobile {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__scroll {
+    min-height: 50px;
+    //max-height: 240px;
+
+    @include mobile {
+      max-height: 100%;
+    }
+  }
+
+  &__list {
+    padding: 5px 0;
+  }
+
+  &__item {
+    display: block;
+    padding: 5px 15px;
+    font-size: 16px;
+    line-height: 26px;
+    //white-space: nowrap;
+    overflow: hidden;
+    color: $color-secondary;
+    cursor: pointer;
+
+    @include mobile {
+      padding: 10px 0;
+      color: $color-darkgrey;
+    }
+
+    &:hover,
+    &.highlight {
+      text-decoration: none;
+      color: $color-primary;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+}

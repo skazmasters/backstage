@@ -1,0 +1,1956 @@
+{
+  "cards": {
+    "home": {
+      "fashion": [
+        {
+          "main": true,
+          "light": true,
+          "card-class": "grid-fashion",
+          "image": "fashion/01",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "It is a long established <br class=\"_mobile-hidden\"> fact that a reader will <br class=\"_mobile-hidden\"> be distracted ",
+          "datetime": "2020-10-17",
+          "pubdate": "March 17, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "card-class": "grid-fashion",
+          "image": "fashion/02",
+          "video": true,
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "Various versions have evolved over the years, sometimes by accident",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "video.html"
+          }
+        },
+        {
+          "card-class": "grid-fashion",
+          "image": "fashion/03",
+          "video": true,
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "It is a long established fact  that a reader will be distracted by the readable",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "video.html"
+          }
+        },
+        {
+          "card-class": "grid-fashion",
+          "image": "fashion/04",
+          "video": true,
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "Contrary to popular belief, over Lorem Ipsum is not simply random text",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "video.html"
+          }
+        }
+      ],
+      "art": [
+        {
+          "main": true,
+          "light": true,
+          "card-class": "grid-art",
+          "image": "fashion/05",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "It is a long established <br class=\"_mobile-hidden\"> fact that a reader will <br class=\"_mobile-hidden\"> be distracted ",
+          "datetime": "2020-10-17",
+          "pubdate": "March 17, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "card-class": "grid-art",
+          "image": "art/01",
+          "video": true,
+          "category": "Art",
+          "category-url": "art.html",
+          "title": "Contrary to popular belief, over Lorem Ipsum is not simply random text reader will be distracted by the readable",
+          "datetime": "2020-10-15",
+          "pubdate": "March 15, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "art.html",
+            "article": "video.html"
+          }
+        },
+        {
+          "card-class": "grid-art",
+          "image": "art/02",
+          "category": "Art",
+          "category-url": "art.html",
+          "title": "Various versions have evolved over the years, sometimes by accident",
+          "datetime": "2020-10-15",
+          "pubdate": "March 15, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "art.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "card-class": "grid-art",
+          "image": "art/03",
+          "category": "Art",
+          "category-url": "art.html",
+          "title": "It is a long established fact  that a reader will be distracted by the readable",
+          "datetime": "2020-10-15",
+          "pubdate": "March 14, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "art.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "card-class": "grid-art",
+          "image": "art/04",
+          "video": true,
+          "category": "Art",
+          "category-url": "art.html",
+          "title": "It is a long established fact  that a reader will be distracted by the readable",
+          "datetime": "2020-10-12",
+          "pubdate": "March 12, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "art.html",
+            "article": "video.html"
+          }
+        }
+      ],
+      "culture": [
+        {
+          "no-slider": true,
+          "card-class": "grid-culture",
+          "image": "culture/01",
+          "category": "Culture",
+          "category-url": "culture.html",
+          "title": "It is a long established fact that a reader will be distracted by the readable",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "culture.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "no-slider": true,
+          "card-class": "grid-culture",
+          "image": "culture/02",
+          "category": "Culture",
+          "category-url": "culture.html",
+          "title": "Contrary to popular belief, Lorem Ipsum is not simply random text ",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "culture.html",
+            "article": "photogallery.html"
+          }
+        }
+      ],
+      "preview": [
+        {
+          "image": "preview/01",
+          "category": "Preview",
+          "category-url": "culture.html",
+          "title": "Haider Ackermann belief, Lorem Ipsum is not simply random text",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "preview.html",
+            "article": "preview.html"
+          },
+          "events": [
+            {
+              "event-datetime": "2020-10-16",
+              "event-date": "March 16, 2020",
+              "event-location": "Paris-Opéra Bastille",
+              "location-url": "#",
+              "date-url": "#"
+            }
+          ]
+        },
+        {
+          "image": "preview/02",
+          "category": "Preview",
+          "category-url": "culture.html",
+          "title": "Contrary to popular belief, Lorem Ipsum is not simply will be distracted",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "preview.html",
+            "article": "preview.html"
+          },
+          "events": [
+            {
+              "event-datetime": "2020-10-16",
+              "event-date": "March 16, 2020",
+              "event-location": "Paris-Opéra Bastille",
+              "location-url": "#",
+              "date-url": "#"
+            }
+          ]
+        },
+        {
+          "image": "preview/03",
+          "category": "Preview",
+          "category-url": "culture.html",
+          "title": "Various versions have 2020 evolved over the years, sometimes by accident",
+          "datetime": "2020-10-16",
+          "pubdate": "March 16, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "preview.html",
+            "article": "preview.html"
+          },
+          "events": [
+            {
+              "event-date": "March 16, 2020",
+              "event-datetime": "2020-10-16",
+              "event-location": "Paris-Opéra Bastille",
+              "location-url": "#",
+              "date-url": "#"
+            }
+          ]
+        }
+      ]
+    },
+    "fashion": {
+      "all": {
+        "preview": [
+          {
+            "main": true,
+            "light": true,
+            "card-class": "grid-intro",
+            "image": "fashion/06",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact&nbsp;that a reader will be&nbsp;distracted",
+            "datetime": "2020-10-17",
+            "pubdate": "March 17, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          }
+        ],
+        "content": [
+          {
+            "video": true,
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/07",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Various versions have evolved over the years, sometimes by accident",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/14",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/12",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact that&nbsp;a reader will be distracted by the readable",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "video": true,
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/08",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/09",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact <br class=\"_mobile-hidden\"> that a reader will be distracted by the readable",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "video": true,
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/13",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          }
+        ]
+      },
+      "video": {
+        "preview": [
+          {
+            "main": true,
+            "light": true,
+            "video": true,
+            "card-class": "grid-intro",
+            "image": "fashion/10",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established <br class=\"_mobile-hidden\"> fact that a reader will <br class=\"_mobile-hidden\"> be distracted ",
+            "datetime": "2020-10-17",
+            "pubdate": "March 17, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          }
+        ],
+        "content": [
+          {
+            "no-slider": true,
+            "video": true,
+            "card-class": "grid-reports",
+            "image": "fashion/video/01",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Various versions have evolved over the years, sometimes by accident",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "video": true,
+            "card-class": "grid-reports",
+            "image": "fashion/video/02",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "video": true,
+            "card-class": "grid-reports",
+            "image": "fashion/video/03",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact that a reader will be distracted by the readable",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "video": true,
+            "card-class": "grid-reports",
+            "image": "fashion/video/04",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "video": true,
+            "card-class": "grid-reports",
+            "image": "fashion/video/05",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact that a reader will be distracted by the readable",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "video": true,
+            "card-class": "grid-reports",
+            "image": "fashion/video/06",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          }
+        ]
+      },
+      "photo": {
+        "preview": [
+          {
+            "main": true,
+            "light": true,
+            "card-class": "grid-intro",
+            "image": "fashion/11",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established <br class=\"_mobile-hidden\"> fact that a reader will <br class=\"_mobile-hidden\"> be distracted ",
+            "datetime": "2020-10-17",
+            "pubdate": "March 17, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          }
+        ],
+        "content": [
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/15",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Various versions have evolved over the years, sometimes by accident",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/12",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/16",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact <br class=\"_mobile-hidden\"> that a reader will be distracted by the readable",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/17",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/13",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "It is a long established fact <br class=\"_mobile-hidden\"> that a reader will be distracted by the readable",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "fashion/18",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "photogallery.html"
+            }
+          }
+        ]
+      }
+    },
+    "preview": {
+      "all": {
+        "preview": [
+          {
+            "main": true,
+            "light": true,
+            "static": true,
+            "no-slider": true,
+            "arrow": true,
+            "card-class": "grid-intro",
+            "image": "preview/preview/01",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Contrary to popular belief&nbsp;Lorem Ipsum is not&nbsp;simply random text",
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              }
+            ],
+            "url": {
+              "category": "preview.html",
+              "article": "event.html"
+            },
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ]
+          }
+        ],
+        "content": [
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "preview/all/01",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Balmain contrary to popular belief, Lorem Ipsum is not simply",
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "event.html",
+              "article": "event.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "preview/all/02",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Louis Vuitton belief, Lorem Ipsum is not simply random text",
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "event.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "preview/all/03",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Haider Ackermann contrary to popular belief, Lorem Ipsum",
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "event.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "preview/all/04",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Louis Vuitton belief, Lorem Ipsum is not simply random text",
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "event.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "preview/all/05",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Balmain contrary to popular belief, Lorem Ipsum is not simply",
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "event.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "card-class": "grid-reports",
+            "image": "preview/all/06",
+            "category": "Preview",
+            "category-url": "preview.html",
+            "title": "Balmain contrary to popular belief, Lorem Ipsum is not simply",
+            "events": [
+              {
+                "event-datetime": "2020-10-16",
+                "event-date": "March 20, 2020",
+                "event-location": "Paris-Opéra Bastille",
+                "location-url": "#",
+                "date-url": "#"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "#Paris Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "event.html"
+            }
+          }
+        ]
+      }
+    },
+    "search": {
+      "all": {
+        "content": [
+          {
+            "video": true,
+            "no-slider": true,
+            "arrows": true,
+            "image": "fashion/07",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply <mark>Paris</mark> random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "<mark>#Paris</mark> Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "arrows": true,
+            "image": "fashion/14",
+            "category": "Culture",
+            "category-url": "culture.html",
+            "title": "Various versions have evolved over the years <mark>Paris</mark> sometimes",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "<mark>#Paris</mark> Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "culture.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "arrows": true,
+            "image": "fashion/12",
+            "category": "Culture",
+            "category-url": "culture.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply <mark>Paris</mark> random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "<mark>#Paris</mark> Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "culture.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "video": true,
+            "no-slider": true,
+            "arrows": true,
+            "image": "fashion/08",
+            "category": "Art",
+            "category-url": "art.html",
+            "title": "Balmain contrary to popular belief, Lorem Ipsum is not simply <mark>Paris</mark>",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "<mark>#Paris</mark> Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "art.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "no-slider": true,
+            "arrows": true,
+            "image": "fashion/09",
+            "category": "Art",
+            "category-url": "art.html",
+            "title": "Contrary to popular belief, Lorem Ipsum is not simply <mark>Paris</mark> random text",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "<mark>#Paris</mark> Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "art.html",
+              "article": "video.html"
+            }
+          },
+          {
+            "video": true,
+            "no-slider": true,
+            "arrows": true,
+            "image": "fashion/13",
+            "category": "Fashion",
+            "category-url": "fashion.html",
+            "title": "Various versions have evolved over the years <mark>Paris</mark> sometimes",
+            "datetime": "2020-10-21",
+            "pubdate": "March 21, 2020",
+            "tags": [
+              {
+                "tag": "<mark>#Paris</mark> Fashion Week"
+              },
+              {
+                "tag": "#New York FW"
+              },
+              {
+                "tag": "#London FW"
+              },
+              {
+                "tag": "#Milan FW"
+              },
+              {
+                "tag": "#Louis Vuitton"
+              }
+            ],
+            "url": {
+              "category": "fashion.html",
+              "article": "video.html"
+            }
+          }
+        ]
+      }
+    },
+    "contributors": [
+      {
+        "name": "Tatiana Schleifer",
+        "info": "Lorem Ipsum is simply dummy text of the printing",
+        "image": "01",
+        "socials": [
+          {
+            "social": "instagram",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "name": "Emery Philips",
+        "info": "Lorem Ipsum is simply dummy text of the printing",
+        "image": "02",
+        "socials": [
+          {
+            "social": "instagram",
+            "url": "#"
+          }
+        ],
+        "reversed": true
+      },
+      {
+        "name": "Marley Korsgaard",
+        "info": "Lorem Ipsum is simply dummy text of the printing",
+        "image": "03",
+        "socials": [
+          {
+            "social": "instagram",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "name": "Lincoln Siphron",
+        "info": "Lorem Ipsum is simply dummy text of the printing",
+        "image": "04",
+        "socials": [
+          {
+            "social": "instagram",
+            "url": "#"
+          }
+        ],
+        "reversed": true
+      },
+      {
+        "name": "Zain Levin",
+        "info": "Lorem Ipsum is simply dummy text of the printing",
+        "image": "05",
+        "socials": [
+          {
+            "social": "instagram",
+            "url": "#"
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "no-slider": true,
+        "image": "fashion/09",
+        "tags": [
+          {
+            "tag": "#Paris Fashion Week"
+          },
+          {
+            "tag": "#New York FW"
+          },
+          {
+            "tag": "#London FW"
+          },
+          {
+            "tag": "#Milan FW"
+          },
+          {
+            "tag": "#Louis Vuitton"
+          }
+        ],
+        "url": {
+          "category": "preview.html",
+          "article": "video.html"
+        },
+        "events": [
+          {
+            "event-datetime": "2020-10-20",
+            "event-date": "March 20, 2020",
+            "event-location": "Paris-Opéra Bastille",
+            "location-url": "#",
+            "date-url": "#"
+          }
+        ],
+        "event": {
+          "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure.",
+          "url": "#",
+          "link": "http://www.link.com/haideracker"
+        }
+      }
+    ],
+    "related": {
+      "video": [
+        {
+          "video": true,
+          "card-class": "grid-related",
+          "image": "fashion/video/06",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "Various versions have evolved over the years, sometimes by accident",
+          "datetime": "2020-10-21",
+          "pubdate": "March 21, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "video.html"
+          }
+        },
+        {
+          "video": true,
+          "card-class": "grid-related",
+          "image": "fashion/video/02",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+          "datetime": "2020-10-21",
+          "pubdate": "March 21, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "video.html"
+          }
+        },
+        {
+          "video": true,
+          "card-class": "grid-related",
+          "image": "fashion/video/03",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "It is a long established fact that a reader will be distracted by the readable",
+          "datetime": "2020-10-21",
+          "pubdate": "March 21, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "video.html"
+          }
+        }
+      ],
+      "photo": [
+        {
+          "card-class": "grid-related",
+          "image": "fashion/video/05",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "Various versions have evolved over the years, sometimes by accident",
+          "datetime": "2020-10-21",
+          "pubdate": "March 21, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "card-class": "grid-related",
+          "image": "fashion/video/06",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+          "datetime": "2020-10-21",
+          "pubdate": "March 21, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "photogallery.html"
+          }
+        },
+        {
+          "card-class": "grid-related",
+          "image": "fashion/video/04",
+          "category": "Fashion",
+          "category-url": "fashion.html",
+          "title": "It is a long established fact that a reader will be distracted by the readable",
+          "datetime": "2020-10-21",
+          "pubdate": "March 21, 2020",
+          "tags": [
+            {
+              "tag": "#Paris Fashion Week"
+            },
+            {
+              "tag": "#New York FW"
+            },
+            {
+              "tag": "#London FW"
+            },
+            {
+              "tag": "#Milan FW"
+            },
+            {
+              "tag": "#Louis Vuitton"
+            }
+          ],
+          "url": {
+            "category": "fashion.html",
+            "article": "photogallery.html"
+          }
+        }
+      ]
+    }
+  },
+  "photogallery": [
+    {
+      "image": "01"
+    },
+    {
+      "image": "02"
+    },
+    {
+      "image": "03"
+    },
+    {
+      "image": "04"
+    },
+    {
+      "image": "06"
+    },
+    {
+      "image": "05"
+    },
+    {
+      "image": "07"
+    },
+    {
+      "image": "08"
+    },
+    {
+      "image": "09"
+    },
+    {
+      "image": "12"
+    },
+    {
+      "image": "10"
+    },
+    {
+      "image": "11"
+    },
+    {
+      "image": "13"
+    },
+    {
+      "image": "01"
+    },
+    {
+      "image": "14"
+    },
+    {
+      "image": "15"
+    }
+  ]
+}

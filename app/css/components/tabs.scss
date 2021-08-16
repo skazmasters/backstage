@@ -1,0 +1,56 @@
+.tabs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-white;
+
+  @include mobile {
+    justify-content: space-between;
+  }
+
+  &__item {
+    @include font-base(bold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    @include transition;
+
+    @include mobile {
+      @include font-small(bold)
+    }
+
+    &::before {
+      @include transition;
+    }
+
+    &.active {
+      position: relative;
+      z-index: 2;
+      color: $color-primary;
+
+      &:hover {
+        color: $color-primary-hover;
+      }
+    }
+
+    &:not(:last-child) {
+      @include no-mobile {
+        margin-right: 60px;
+      }
+    }
+
+    &:not(.active):hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.tab {
+  &-content {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

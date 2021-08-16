@@ -1,0 +1,29 @@
+{{#> blocks/common/base reports=true}}
+  <div class="section-reports js-tabs">
+    <div class="section-reports__tabs tabs">
+      {{> blocks/common/tabs}}
+    </div>
+    <div class="tab-all tab-content js-tab-content">
+      {{> blocks/common/grid-report
+              dropdown-item='all'
+              card-preview=cards.fashion.all.preview
+              card-content=cards.fashion.all.content
+      }}
+    </div>
+    <div class="tab-1 tab-content js-tab-content">
+      {{> blocks/common/grid-report
+              card-preview=cards.fashion.photo.preview
+              card-content=cards.fashion.photo.content
+      }}
+    </div>
+    <div class="tab-2 tab-content js-tab-content">
+      {{> blocks/common/grid-report
+              card-preview=cards.fashion.video.preview
+              card-content=cards.fashion.video.content
+      }}
+    </div>
+  </div>
+  <div class="section__pagination">
+    {{>blocks/common/pagination}}
+  </div>
+{{/blocks/common/base}}

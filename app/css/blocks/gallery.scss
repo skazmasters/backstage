@@ -1,0 +1,440 @@
+.gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  display: flex;
+  margin:  auto;
+  max-width: 1180px;
+  max-height: 860px;
+  height: calc(100% - 4vh);
+  width: 100%;
+  padding: 60px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  transition: all 350ms ease;
+  visibility: hidden;
+
+  @include tablet {
+    max-width: calc(100vw - 40px);
+    margin: auto;
+  }
+
+  @include smallTablet {
+    max-width: 100vw;
+  }
+
+  @include smallTablet-and-mobile {
+    padding: 0;
+    height: 100vh;
+    max-height: 100%;
+  }
+
+  >  * {
+    opacity: 0;
+    transition: all 350ms ease;
+  }
+
+  &.visible {
+    background-color: $color-white;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.2);
+    visibility: visible;
+
+    >  * {
+      opacity: 1;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 28px;
+    height: 28px;
+    transform: translateX(100%);
+    transition: opacity 350ms ease;
+
+    @include tablet-and-mobile {
+      top: 20px;
+      right: 20px;
+      transform: none;
+    }
+
+    @include smallTablet-and-mobile {
+      z-index: 102;
+    }
+
+    &::after,
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      border-bottom: 2px solid $color-white;
+
+      @include tablet-and-mobile {
+        border-color: $color-grey;
+      }
+
+      @include smallTablet-and-mobile {
+        border-color: $color-grey;
+      }
+    }
+
+    &::after {
+      transform: rotate(45deg) translate(-1px, -1px);
+    }
+
+    &::before {
+      transform: rotate(-45deg);
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    @include tablet {
+      padding-right: 160px;
+      padding-left: 40px;
+    }
+
+    @include smallTablet-and-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px;
+    }
+
+    @include mobile {
+      padding: 90px 20px 50px;
+    }
+  }
+
+  &__container {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+
+    @include tablet {
+      max-width: 450px;
+    }
+
+    @include smallTablet {
+      order: -1;
+      flex: 1 1 auto;
+      max-width: 100%;
+      padding-top: 30px;
+    }
+
+    @include mobile {
+      order: -1;
+      flex: 1 1 auto;
+      max-height: 500px;
+    }
+  }
+
+  &__wrapper {
+    height: 100%;
+
+    @include smallTablet-and-mobile {
+      order: -1;
+      height: 100%;
+    }
+
+    @include mobile {
+      height: auto;
+      max-height: 61vh;
+      flex: 0 1 495px;
+    }
+  }
+
+  &__slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: grab;
+
+    img {
+      object-fit: cover;
+      width: auto;
+      height: auto;
+      object-position: center;
+
+      @include no-smallTablet {
+        @include fill;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      @include tablet {
+        width: 100%;
+      }
+
+      @include smallTablet {
+        position: static;
+        width: auto;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      @include smallTablet-and-mobile {
+        @media (orientation: landscape) {
+          object-fit: contain;
+          width: auto;
+          height: 100%;
+        }
+      }
+
+      @include mobile {
+        max-height: 61vh;
+      }
+    }
+  }
+
+  &__control {
+    color: $color-secondary;
+    width: 40px;
+    height: 40px;
+
+    @include mobile {
+      display: none;
+    }
+
+    &::after {
+      content: '';
+      opacity: 0.5;
+      transition: opacity 350ms ease;
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+
+    &.swiper-button-next {
+      right: -38%;
+
+      @include tablet {
+        right: -15%;
+      }
+
+      @include smallTablet {
+        right: -8%;
+      }
+
+      &::after {
+        @include sprite('slider');
+      }
+    }
+
+    &.swiper-button-prev {
+      left: -38%;
+
+      @include tablet {
+        left: -15%;
+      }
+
+      @include smallTablet {
+        left: -8%;
+      }
+
+      &::after {
+        @include sprite('slider');
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__pagination {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 22px;
+    width: 50px;
+    @include font-base(bold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    @include smallTablet-and-mobile {
+      position: static;
+      flex: auto;
+      margin-top: 5vh;
+      margin-bottom: 20px;
+    }
+
+    @include mobile {
+      flex: 0 0 auto;
+      margin-top: 5vh;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__sharing {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    @include smallTablet-and-mobile {
+      position: static;
+      flex: 0 0 auto;
+      margin-top: auto;
+    }
+
+    @include mobile {
+      flex: 0 0 auto;
+      margin-top: auto;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+    }
+
+    .sharing-list__item:not(:first-child) {
+      margin-left: 15px;
+    }
+  }
+
+  &__thumbnails {
+    width: 100%;
+    height: 100%;
+    max-width: 120px;
+    padding-right: 20px;
+    margin-left: 64px;
+
+    @include smallTablet-and-mobile {
+      display: none;
+    }
+  }
+
+  &__logo {
+    &-link {
+      position: absolute;
+      z-index: 10;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include no-mobile {
+        display: none;
+      }
+    }
+  }
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    cursor: pointer;
+    background: transparent;
+    transition: all 350ms ease;
+    visibility: hidden;
+
+    @include mobile {
+      z-index: 89;
+    }
+
+    &.visible {
+      visibility: visible;
+      background-color: rgba(black, 0.6);
+    }
+  }
+
+  &-thumbnails {
+    overflow-y: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &__container {
+      display: flex;
+      flex-shrink: 0;
+      height: 100%;
+      max-height: 100%;
+    }
+
+    &__item {
+      position: relative;
+      margin-bottom: 20px;
+      cursor: pointer;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &::after {
+        @include fill;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        content: attr(data-hover-index);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        @include title-h3;
+        background-color: rgba(black, 0.45);
+        opacity: 0;
+        transition: opacity 350ms ease;
+      }
+
+      &.active::after,
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+
+    &__scrollbar {
+      position: absolute;
+      right: 60px;
+      top: 60px;
+      bottom: 60px;
+      height: calc(100% - 120px);
+      width: 3px;
+      background-color: rgba($color-secondary, 0.2);
+      overflow-y: hidden;
+
+      @include smallTablet {
+        top: 40px;
+        right: 40px;
+        height: calc(100% - 80px);
+      }
+    }
+
+    &__scrollableBar {
+      width: 100%;
+      height: 100%;
+      background-color: $color-secondary;
+      transition: transform 50ms linear;
+    }
+  }
+}

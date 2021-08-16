@@ -1,0 +1,140 @@
+.search {
+  &-aside {
+    grid-area: aside;
+
+    &__title {
+      display: block;
+      margin: 0;
+      @include title-h1;
+    }
+
+    &__results {
+      @include font-base();
+    }
+
+    &__total {
+      @include font-base();
+      position: relative;
+      flex: 1 1 100%;
+      margin-bottom: 15px;
+      text-align: left;
+
+      @include mobile {
+        font-weight: bold;
+      }
+
+      &-wrapper {
+        display: flex;
+        text-align: left;
+      }
+
+      &-counts {
+        font-weight: 600;
+
+        @include mobile {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  &-results {
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px 0;
+      border-top: 2px solid rgba($color-darkgrey, 0.2);
+    }
+
+    &__counts {
+      font-weight: 600;
+    }
+  }
+
+  &-content {
+    grid-area: content;
+    margin-top: 5px;
+  }
+
+  &-form {
+    grid-area: form;
+    align-self: end;
+    margin-bottom: 15px;
+
+    &__row {
+      position: relative;
+    }
+
+    &__label {
+      display: flex;
+      width: 100%;
+    }
+
+    &__input {
+      padding: 8px 100px 8px 20px;
+      @include font-base(600);
+      flex: 1 1 100%;
+      border: 2px solid $color-secondary;
+      outline: none;
+      background-color: transparent;
+      transition: all 350ms ease;
+
+      &:focus {
+        border-color: $color-secondary !important;
+
+        ~ .search-form__btn--search {
+          color: $color-secondary;
+        }
+      }
+
+      &::placeholder {
+        color: $color-grey;
+      }
+
+      &:placeholder-shown {
+        border-color: $color-grey;
+
+        ~ .search-form__btn--reset {
+          opacity: 0;
+          visibility: hidden;
+        }
+
+        ~ .search-form__btn--search {
+          color: $color-grey;
+        }
+      }
+    }
+
+    &__btn {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 22px;
+      height: 22px;
+      transform: translateY(-50%);
+      transition: all 350ms ease;
+
+      &--search {
+        color: $color-secondary;
+      }
+
+      &--reset {
+        right: 58px;
+        width: 24px;
+        height: 24px;
+        opacity: 1;
+        visibility: visible;
+        background-color: rgba($color-darkgrey, 0.2);
+      }
+    }
+  }
+}
+
+mark {
+  color: $color-white;
+  background-color: $color-darkgrey;
+}

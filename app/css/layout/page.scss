@@ -1,0 +1,30 @@
+.page {
+  display: flex;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  &__header {
+    position: relative;
+  }
+
+  &__content {
+    flex: 1 0 auto;
+    min-height: 1px;
+    margin-top: 108px;
+
+    @include mobile {
+      margin-top: 60px;
+    }
+  }
+
+  &__footer {
+    flex-shrink: 0;
+  }
+}

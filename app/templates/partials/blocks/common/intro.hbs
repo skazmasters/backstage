@@ -1,0 +1,13 @@
+<section class="section section-intro{{#if intro-class}} section-intro--{{intro-class}}{{/if}}">
+  <div class="section__container container">
+    <header class="section__header{{#if no-line}}{{else}} section-intro__header{{/if}}">
+      <span class="section-intro__title">{{{title}}}</span>
+    </header>
+    {{#if empty}}
+    {{else}}
+      <div class="section__content">
+        {{> @partial-block }}
+      </div>
+    {{/if}}
+  </div>
+</section>

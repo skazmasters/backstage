@@ -1,0 +1,14 @@
+.js-section-contacts {
+  transition: transform .8s ease,
+  opacity .8s ease,
+  visibility .8s;
+
+  &._hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0, 0);
+    transition: transform .8s ease,
+    opacity .8s ease,
+    visibility .8s;
+  }
+}

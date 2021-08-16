@@ -1,0 +1,38 @@
+<div class="section-reports__filters filters">
+  <div class="filters__container">
+    <div class="filters__item">
+      {{#ifCond dropdown-item 'all'}}
+        <select class="js-dropdown-box" data-placeholder="All Reports">
+          <option value="All Reports">All Reports</option>
+          <option value="Video">Popular Reports</option>
+          <option value="Photo">Last reports</option>
+        </select>
+      {{else ifCond dropdown-item 'preview'}}
+        <select class="js-dropdown-box" data-placeholder="Fashion Week">
+          <option value="All Reports">Fashion Week</option>
+          <option value="Video">Fashion Week</option>
+          <option value="Photo">Fashion Week</option>
+        </select>
+      {{else}}
+        <select class="js-dropdown-box" data-placeholder="All Reports">
+          <option value="All Reports">All Reports</option>
+          <option value="Video">Popular Reports</option>
+          <option value="Photo">Last Reports</option>
+        </select>
+      {{/ifCond}}
+    </div>
+    {{#if no-tags}}
+    {{else}}
+      <div class="filters__item">
+        <select class="js-dropdown-box" data-placeholder="All topics">
+          <option value="1">All topics</option>
+          <option value="2">Catwalk</option>
+          <option value="3">London FW</option>
+          <option value="4">Paris Fashion Week</option>
+          <option value="5">New York FW</option>
+          <option value="6">Louis Vuitton</option>
+        </select>
+      </div>
+    {{/if}}
+  </div>
+</div>

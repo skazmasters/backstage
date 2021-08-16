@@ -1,0 +1,22 @@
+@import 'config/index';
+@import 'mixins/index';
+@import 'core/index';
+
+@import '~swiper/css/swiper';
+
+@import "popups/base";
+
+@import 'components/buttons';
+@import 'components/form';
+@import 'components/radio';
+@import 'components/checkbox';
+@import 'components/loader';
+@import 'components/tabs';
+@import 'components/dropdown';
+
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import "blocks/index";
+@import "pages/index";
