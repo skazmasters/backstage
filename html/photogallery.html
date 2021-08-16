@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Backstage website example description">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../assets/images/favicon/site.webmanifest" crossorigin="use-credentials">
+  <link rel="mask-icon" href="../assets/images/favicon/safari-pinned-tab.svg" color="#e02345">
+
+  <meta name="msapplication-TileColor" content="#e02345">
+  <meta name="msapplication-config" content="../assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ozitag.com/">
+  <meta property="og:title" content="Backstage / Photo Report">
+  <meta property="og:description" content="Backstage website example description">
+  <meta property="og:image" content="https://ozitag.com/_next/static/images/home-3dc3fd7581af6cd929f11c35830d3334.jpg">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Alternative text">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@Backstage">
+  <meta name="twitter:creator" content="backstage">
+  <meta name="twitter:title" content="Backstage / Photo Report">
+  <meta name="twitter:description" content="Backstage website example description">
+  <meta name="twitter:image" content="https://ozitag.com/_next/static/images/home-3dc3fd7581af6cd929f11c35830d3334.jpg">
+
+  <title>Photogallery / Photo Report</title>
+
+  <link rel="canonical" href="https://ozitag.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css?v=2978">
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "name": "Backstage / Photo Report",
+      "description": "Backstage website example description",
+      "publisher": {
+        "@type": "Organization",
+        "name": "OZiTAG",
+        "url": "https://ozitag.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": [
+            "https://ozitag.com/logo.png"
+          ]
+        }
+      },
+      "datePublished": "2019-02-05T12:01:51+00:00",
+      "dateModified": "2020-03-30T09:00:00+03:00",
+      "image": [
+        "https://ozitag.com/content/images/home/og_16x9.jpg"
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://ozitag.com/"
+      }
+    }
+  </script>
+</head>
+
+<body class="page  ">
+<div class="preloader js-preloader"></div>
+<div class="page__inner">
+
+<header class="header page__header js-header">
+  <div class="header__container container">
+    <div class="header__content">
+      <div class="header__logo">
+          <a href="./home.html" class="header__logo-link">
+            <svg class="icon icon-logo ">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#logo"/>
+            </svg>          </a>
+      </div>
+      <div class="header__menu-toggler _smallTablet-visible">
+        <button class="menu-toggler js-mobile-menu" type="button">
+          <span class="menu-toggler__item"></span>
+          <span class="menu-toggler__item"></span>
+          <span class="menu-toggler__item menu-toggler__item--small"></span>
+        </button>
+      </div>
+      <div class="header__menu header-menu">
+        <div class="header-menu__container js-menu-container">
+          <div class="header-menu__content js-menu-content">
+            <nav class="header-menu__nav">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a href="fashion.html" class="menu__link">fashion</a>
+                </li>
+                <li class="menu__item">
+                  <a href="culture.html" class="menu__link">culture</a>
+                </li>
+                <li class="menu__item">
+                  <a href="art.html" class="menu__link">art</a>
+                </li>
+                <li class="menu__item">
+                  <a href="preview.html" class="menu__link">preview</a>
+                </li>
+                <li class="menu__item">
+                  <a href="contributors.html" class="menu__link">contributors</a>
+                </li>
+                <li class="menu__item">
+                  <a href="contacts.html" class="menu__link">contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-menu__search">
+              <form class="header-menu__form">
+                <div class="form-field ">
+                    <label class="form-label ">
+                
+                      <input type="text" class="form-input " placeholder="Search">
+                
+                
+                    <button class="form-btn-search" type="submit" aria-label="Search button.">
+                      <svg class="icon icon-search ">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#search"/>
+                      </svg>    </button>
+                  </label>
+                
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page__content">
+<section class="section section-intro">
+  <div class="section__container container">
+    <header class="section-intro__header section-intro__header--reports">
+      <span class="section-intro__label"><a href="fashion.html">Fashion</a></span>
+      <span class="section-intro__title">It is a long established fact that a reader will be distracted by the readable</span>
+    </header>
+    <div class="section-intro__content publication">
+      <ul class="publication__tags card-tags card-tags--normal">
+        <li class="card-tags__item">
+          <a class="card-tags__link" href="#">#Paris Fashion Week</a>
+        </li>
+        <li class="card-tags__item">
+          <a class="card-tags__link" href="#">#New York FW</a>
+        </li>
+        <li class="card-tags__item">
+          <a class="card-tags__link" href="#">#London FW</a>
+        </li>
+        <li class="card-tags__item">
+          <a class="card-tags__link" href="#">#Milan FW</a>
+        </li>
+        <li class="card-tags__item">
+          <a class="card-tags__link" href="#">#Louis Vuitton</a>
+        </li>
+      </ul>
+      <p class="publication__info">
+        Photographer <span class="publication__info-name">Emery Phillips</span>
+      </p>
+      <div class="publication__date card-pubdate">
+        <time class="card-pubdate__time" datetime="2020-05-21" tabindex="0">March 21, 2020</time>
+      </div>
+      <div class="publication__sharing">
+        <span>Share</span>
+        <ul class="sharing-list js-sharing-section">
+          <li class="sharing-list__item">
+            <button class="js-social-share" data-action="twitter" type="button">
+              <svg class="icon icon-twitter ">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#twitter"/>
+              </svg>    </button>
+          </li>
+          <li class="sharing-list__item">
+            <button class="sharing-list__icon" data-action="pinterest">
+              <svg class="icon icon-pinterest ">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#pinterest"/>
+              </svg>    </button>
+          </li>
+          <li class="sharing-list__item">
+            <button class="js-social-share" data-action="facebook" type="button">
+              <svg class="icon icon-facebook ">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#facebook"/>
+              </svg>    </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-base section-base--report">
+  <div class="section__container container">
+    <div class="section__content">
+        <div class="section-video-report">
+          <div class="card">
+            <div class="card__image">
+              <span class="card__link card__image-link">  <picture>
+      
+      
+          
+            <source data-srcset="../assets/images/photogallery/bg.webp, ../assets/images/photogallery/bg@2x.webp 2x" type="image/webp">
+          <source data-srcset="../assets/images/photogallery/bg.jpg, ../assets/images/photogallery/bg@2x.jpg 2x" type="image/jpeg">
+      
+          <img class="lazy" data-sizes="auto" data-original="../assets/images/photogallery/bg.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" alt>
+        </picture>
+      </span>
+            </div>
+          </div>
+          <div class="static">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+      
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+              literature from 45 BC, making it over 2000 years old.
+              <br><br>
+              Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+              obscure.Contrary to popular belief, Lorem Ipsum is not simply random text.
+            </p>
+      
+            <ol>
+              <li>Proin libero sem, imperdiet vel convallis ac, lobortis quis sapien. Quisque urna nulla, blandit et commodo
+                bibendum, luctus quis nulla. Morbi sagittis libero sit amet mauris volutpat eleifend. Cras vel diam molestie,
+                vulputate orci ac, aliquam elit. Nulla facilisi. In ac massa nec erat elementum luctus. Mauris sit amet est
+                rutrum, porta massa in, elementum massa. Cras dapibus lobortis blandit. Suspendisse semper erat non eros
+                ultricies pellentesque. Duis velit urna, lobortis at elit nec, suscipit tincidunt diam. Etiam ultricies
+                aliquam odio nec vulputate. Cras nec dolor cursus, consectetur ipsum non, fermentum nisi. Phasellus at urna
+                quis ex euismod ullamcorper quis eu arcu. Aliquam in magna lorem. Ut pretium urna pharetra, sodales nunc
+                consectetur, hendrerit sem.
+              </li>
+              <li>Pretium urna pharetra, sodales nunc consectetur, hendrerit sem.
+              </li>
+              <li>Cras semper eget ex et suscipit. Sed efficitur porta semper. Maecenas in est finibus, convallis lacus ac,
+                mollis lectus. Maecenas pulvinar magna scelerisque semper vehicula. In bibendum metus ut neque sagittis
+                ullamcorper. Proin lacinia lectus ligula, ac porttitor quam ullamcorper sed. Nulla pharetra sagittis urna,
+                eget facilisis justo vehicula ut. Suspendisse non erat er
+              </li>
+            </ol>
+      
+            <ul>
+              <li>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure.Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
+              <li>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure.Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
+              <li>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure.Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
+            </ul>
+      
+            <ol>
+              <li>Proin libero sem, imperdiet vel convallis ac, lobortis quis sapien. Quisque urna nulla, blandit et commodo
+                bibendum, luctus quis nulla. Morbi sagittis libero sit amet mauris volutpat eleifend. Cras vel diam molestie,
+                vulputate orci ac, aliquam elit. Nulla facilisi. In ac massa nec erat elementum luctus. Mauris sit amet est
+                rutrum, porta massa in, elementum massa. Cras dapibus lobortis blandit. Suspendisse semper erat non eros
+                ultricies pellentesque. Duis velit urna, lobortis at elit nec, suscipit tincidunt diam. Etiam ultricies
+                aliquam odio nec vulputate. Cras nec dolor cursus, consectetur ipsum non, fermentum nisi. Phasellus at urna
+                quis ex euismod ullamcorper quis eu arcu. Aliquam in magna lorem. Ut pretium urna pharetra, sodales nunc
+                consectetur, hendrerit sem.
+              </li>
+              <li>Cras semper eget ex et suscipit. Sed efficitur porta semper. Maecenas in est finibus, convallis lacus ac,
+                mollis lectus. Maecenas pulvinar magna scelerisque semper vehicula. In bibendum metus ut neque sagittis
+                ullamcorper. Proin lacinia lectus ligula, ac porttitor quam ullamcorper sed. Nulla pharetra sagittis urna,
+                eget facilisis justo vehicula ut. Suspendisse non erat er
+              </li>
+            </ol>
+      
+          </div>
+          <div class="photogallery js-photogallery" data-images-path="../assets/images/common/logo.svg" data-sprite-url="../assets/images/spriteInline.svg" data-pinterest-icon="../assets/images/sharing/pinterest.svg">
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/01.jpg, ../assets/images/photogallery/01@2x.jpg 2x" data-original="../assets/images/photogallery/01.jpg" data-thumbs="../assets/images/photogallery/01.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/02.jpg, ../assets/images/photogallery/02@2x.jpg 2x" data-original="../assets/images/photogallery/02.jpg" data-thumbs="../assets/images/photogallery/02.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/03.jpg, ../assets/images/photogallery/03@2x.jpg 2x" data-original="../assets/images/photogallery/03.jpg" data-thumbs="../assets/images/photogallery/03.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/04.jpg, ../assets/images/photogallery/04@2x.jpg 2x" data-original="../assets/images/photogallery/04.jpg" data-thumbs="../assets/images/photogallery/04.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/06.jpg, ../assets/images/photogallery/06@2x.jpg 2x" data-original="../assets/images/photogallery/06.jpg" data-thumbs="../assets/images/photogallery/06.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/05.jpg, ../assets/images/photogallery/05@2x.jpg 2x" data-original="../assets/images/photogallery/05.jpg" data-thumbs="../assets/images/photogallery/05.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/07.jpg, ../assets/images/photogallery/07@2x.jpg 2x" data-original="../assets/images/photogallery/07.jpg" data-thumbs="../assets/images/photogallery/07.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/08.jpg, ../assets/images/photogallery/08@2x.jpg 2x" data-original="../assets/images/photogallery/08.jpg" data-thumbs="../assets/images/photogallery/08.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/09.jpg, ../assets/images/photogallery/09@2x.jpg 2x" data-original="../assets/images/photogallery/09.jpg" data-thumbs="../assets/images/photogallery/09.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/12.jpg, ../assets/images/photogallery/12@2x.jpg 2x" data-original="../assets/images/photogallery/12.jpg" data-thumbs="../assets/images/photogallery/12.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/10.jpg, ../assets/images/photogallery/10@2x.jpg 2x" data-original="../assets/images/photogallery/10.jpg" data-thumbs="../assets/images/photogallery/10.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/11.jpg, ../assets/images/photogallery/11@2x.jpg 2x" data-original="../assets/images/photogallery/11.jpg" data-thumbs="../assets/images/photogallery/11.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/13.jpg, ../assets/images/photogallery/13@2x.jpg 2x" data-original="../assets/images/photogallery/13.jpg" data-thumbs="../assets/images/photogallery/13.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/01.jpg, ../assets/images/photogallery/01@2x.jpg 2x" data-original="../assets/images/photogallery/01.jpg" data-thumbs="../assets/images/photogallery/01.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/14.jpg, ../assets/images/photogallery/14@2x.jpg 2x" data-original="../assets/images/photogallery/14.jpg" data-thumbs="../assets/images/photogallery/14.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+              <div class="photogallery__item">
+                <img class="photogallery__image lazy js-photogallery-image" data-sizes="auto" srcset="../assets/images/photogallery/15.jpg, ../assets/images/photogallery/15@2x.jpg 2x" data-original="../assets/images/photogallery/15.jpg" data-thumbs="../assets/images/photogallery/15.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt loading="lazy" tabindex="0">
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<span class="js-scroll-to-top" aria-label="Scroll on top." tabindex="0"></span>
+<section class="section section-related section--bg">
+  <div class="section__container container">
+      <header class="section__header">
+        <span class="section__title section__title--preview">Related Posts</span>
+      </header>
+    <div class="section__content">
+        <section class="section-slider section-slider--no-gutters swiper-container js-slider-related">
+          <ul class="grid grid-related swiper-wrapper">
+              <li class="card grid-related__item swiper-slide">
+                <article class="card__container">
+                  <div class="card__image ">
+                    <a class="card__link card__image-link" href="photogallery.html">
+                        <picture>
+                      
+                      
+                          
+                            <source data-srcset="../assets/images/cards/fashion/video/05.webp, ../assets/images/cards/fashion/video/05@2x.webp 2x" type="image/webp">
+                          <source data-srcset="../assets/images/cards/fashion/video/05.jpg, ../assets/images/cards/fashion/video/05@2x.jpg 2x" type="image/jpeg">
+                      
+                          <img class="lazy" data-sizes="auto" data-original="../assets/images/cards/fashion/video/05.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" alt>
+                        </picture>
+                    </a>
+                  </div>
+                  <div class="card__info">
+                      <p class="card__label">
+                        <a class="card__link card__label-link" href="fashion.html">Fashion</a>
+                      </p>
+                      <span class="card__title">
+                        <a class="card__link card__title-link" href="photogallery.html">
+                          Various versions have evolved over the years, sometimes by accident
+                        </a>
+                      </span>
+                    <ul class="card-tags">
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Paris Fashion Week</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#New York FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#London FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Milan FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Louis Vuitton</a>
+                        </li>
+                    </ul>
+                      <div class="card-pubdate">
+                        <time class="card-pubdate__time" datetime="2020-10-21">March 21, 2020</time>
+                      </div>
+                  </div>
+                </article>
+              </li>
+              <li class="card grid-related__item swiper-slide">
+                <article class="card__container">
+                  <div class="card__image ">
+                    <a class="card__link card__image-link" href="photogallery.html">
+                        <picture>
+                      
+                      
+                          
+                            <source data-srcset="../assets/images/cards/fashion/video/06.webp, ../assets/images/cards/fashion/video/06@2x.webp 2x" type="image/webp">
+                          <source data-srcset="../assets/images/cards/fashion/video/06.jpg, ../assets/images/cards/fashion/video/06@2x.jpg 2x" type="image/jpeg">
+                      
+                          <img class="lazy" data-sizes="auto" data-original="../assets/images/cards/fashion/video/06.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" alt>
+                        </picture>
+                    </a>
+                  </div>
+                  <div class="card__info">
+                      <p class="card__label">
+                        <a class="card__link card__label-link" href="fashion.html">Fashion</a>
+                      </p>
+                      <span class="card__title">
+                        <a class="card__link card__title-link" href="photogallery.html">
+                          Contrary to popular belief, Lorem Ipsum is not simply random text
+                        </a>
+                      </span>
+                    <ul class="card-tags">
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Paris Fashion Week</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#New York FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#London FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Milan FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Louis Vuitton</a>
+                        </li>
+                    </ul>
+                      <div class="card-pubdate">
+                        <time class="card-pubdate__time" datetime="2020-10-21">March 21, 2020</time>
+                      </div>
+                  </div>
+                </article>
+              </li>
+              <li class="card grid-related__item swiper-slide">
+                <article class="card__container">
+                  <div class="card__image ">
+                    <a class="card__link card__image-link" href="photogallery.html">
+                        <picture>
+                      
+                      
+                          
+                            <source data-srcset="../assets/images/cards/fashion/video/04.webp, ../assets/images/cards/fashion/video/04@2x.webp 2x" type="image/webp">
+                          <source data-srcset="../assets/images/cards/fashion/video/04.jpg, ../assets/images/cards/fashion/video/04@2x.jpg 2x" type="image/jpeg">
+                      
+                          <img class="lazy" data-sizes="auto" data-original="../assets/images/cards/fashion/video/04.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" alt>
+                        </picture>
+                    </a>
+                  </div>
+                  <div class="card__info">
+                      <p class="card__label">
+                        <a class="card__link card__label-link" href="fashion.html">Fashion</a>
+                      </p>
+                      <span class="card__title">
+                        <a class="card__link card__title-link" href="photogallery.html">
+                          It is a long established fact that a reader will be distracted by the readable
+                        </a>
+                      </span>
+                    <ul class="card-tags">
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Paris Fashion Week</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#New York FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#London FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Milan FW</a>
+                        </li>
+                        <li class="card-tags__item">
+                          <a class="card-tags__link" href="#">#Louis Vuitton</a>
+                        </li>
+                    </ul>
+                      <div class="card-pubdate">
+                        <time class="card-pubdate__time" datetime="2020-10-21">March 21, 2020</time>
+                      </div>
+                  </div>
+                </article>
+              </li>
+          </ul>
+          <div class="_mobile-visible swiper-pagination"></div>
+        </section>
+    </div>
+      <footer class="section__footer">
+          <a href="preview.html" class="btn  btn-preview">
+                More
+            </a>
+      </footer>
+  </div>
+</section>
+</main>
+
+<footer class="footer page__footer">
+  <div class="footer__container container">
+    <div class="footer__content">
+      <div class="footer__top">
+        <nav class="footer__nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="fashion.html" class="menu__link">fashion</a>
+            </li>
+            <li class="menu__item">
+              <a href="culture.html" class="menu__link">culture</a>
+            </li>
+            <li class="menu__item">
+              <a href="art.html" class="menu__link">art</a>
+            </li>
+            <li class="menu__item">
+              <a href="preview.html" class="menu__link">preview</a>
+            </li>
+            <li class="menu__item">
+              <a href="contributors.html" class="menu__link">contributors</a>
+            </li>
+            <li class="menu__item">
+              <a href="contacts.html" class="menu__link">contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom js-footer-bottom">
+        <div class="footer__credits"><a href="privacy-policy.html">We respect your privacy</a></div>
+        <div class="footer__copy">© Backstage 2020</div>
+        <div class="footer__socials">
+          <div class="footer__dev">Developed&nbsp;by&nbsp;<a href="privacy-policy.html">Agente</a></div>
+          <ul class="socials">
+              <li class="socials__item">
+                <a href="#" class="socials__link socials__link--youtube" target="_blank" aria-label="Link to youtube"></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link socials__link--instagram" target="_blank" aria-label="Link to instagram"></a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script src="../js/vendors.js?v=2978"></script>  <script src="../js/main.js?v=2978"></script></body>
+</html>
