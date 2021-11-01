@@ -239,7 +239,11 @@
 
   &-slider {
     @include mobile {
-      margin-right: -20px;
+      margin-right: 0;
+
+      .grid {
+        gap: 0;
+      }
 
       .swiper-pagination {
         position: static;

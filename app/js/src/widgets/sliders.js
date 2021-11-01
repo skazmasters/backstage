@@ -20,7 +20,7 @@ class Sliders {
 
   initSwiper() {
     this.swiper = new Swiper(this.nodeElement, {
-      slidesPerView: 1.06,
+      slidesPerView: 1,
       spaceBetween: 10,
       loop: true,
       speed: 1000,
